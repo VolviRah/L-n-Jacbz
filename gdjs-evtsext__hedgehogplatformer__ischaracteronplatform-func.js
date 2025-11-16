@@ -11,7 +11,7 @@ gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.GDCharacterObjects1= [];
 gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.GDPlatformObjects1= [];
 
 
-gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.userFunc0xb33c08 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.userFunc0x94feb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { isCharacterOnPlatform } = gdjs.__hedgehogPlatformerExtension;
 
@@ -33,7 +33,7 @@ gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.eventsList0 = function(r
 {
 
 
-gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.userFunc0xb33c08(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__HedgehogPlatformer__IsCharacterOnPlatform.userFunc0x94feb0(runtimeScene, eventsFunctionContext);
 
 }
 

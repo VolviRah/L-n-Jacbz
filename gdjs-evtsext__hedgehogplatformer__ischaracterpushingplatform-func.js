@@ -11,7 +11,7 @@ gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.GDCharacterObjects1
 gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.GDPlatformObjects1= [];
 
 
-gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.userFunc0xb31348 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.userFunc0x94feb0 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 const { isCharacterPushingPlatform } = gdjs.__hedgehogPlatformerExtension;
 
@@ -33,7 +33,7 @@ gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.eventsList0 = funct
 {
 
 
-gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.userFunc0xb31348(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__HedgehogPlatformer__IsCharacterPushingPlatform.userFunc0x94feb0(runtimeScene, eventsFunctionContext);
 
 }
 

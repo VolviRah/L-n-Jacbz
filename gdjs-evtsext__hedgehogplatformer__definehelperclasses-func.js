@@ -9,7 +9,7 @@ gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses = {};
 gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.idToCallbackMap = new Map();
 
 
-gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.userFunc0xac8e68 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
+gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.userFunc0x952dd8 = function GDJSInlineCode(runtimeScene, eventsFunctionContext) {
 "use strict";
 if (gdjs.__hedgehogPlatformerExtension) {
     return;
@@ -642,7 +642,7 @@ gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.eventsList0 = function(run
 {
 
 
-gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.userFunc0xac8e68(runtimeScene, eventsFunctionContext);
+gdjs.evtsExt__HedgehogPlatformer__DefineHelperClasses.userFunc0x952dd8(runtimeScene, eventsFunctionContext);
 
 }
 

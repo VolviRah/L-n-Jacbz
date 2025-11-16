@@ -739,6 +739,10 @@ gdjs.Game_32SceneCode.GDDoNotFollowCameraIndicatorObjects3.length = 0;
     gdjs.Game_32SceneCode.GDAlexObjects3[i].deleteFromScene(runtimeScene);
 }
 }
+{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
+}
+{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
+}
 gdjs.Game_32SceneCode.localVariables.length = 0;
 }
 gdjs.Game_32SceneCode.idToCallbackMap.set(18306388, gdjs.Game_32SceneCode.asyncCallback18306388);
@@ -3485,10 +3489,6 @@ gdjs.copyArray(runtimeScene.getObjects("MiddleCam"), gdjs.Game_32SceneCode.GDMid
 }
 {gdjs.evtTools.camera.setCameraZoom(runtimeScene, 5, "", 0);
 }
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Stephen Bishop - It Might Be You (Official Lyric Video).mp3", 1, true, 80, 1);
-}
-{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "jeepney sound effects #soundeffects #soundeffectsyoutubersuse #soundeffectsforcontentcreators.mp3", 1, true, 30, 1);
-}
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDFadeInAndOutObjects1.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDFadeInAndOutObjects1[i].getBehavior("Opacity").setOpacity(0);
 }
@@ -3563,6 +3563,28 @@ gdjs.copyArray(runtimeScene.getObjects("Walls"), gdjs.Game_32SceneCode.GDWallsOb
 {for(var i = 0, len = gdjs.Game_32SceneCode.GDShanaiahObjects1.length ;i < len;++i) {
     gdjs.Game_32SceneCode.GDShanaiahObjects1[i].separateFromObjectsList(gdjs.Game_32SceneCode.mapOfGDgdjs_9546Game_959532SceneCode_9546GDChristmasTreeMYLIFEObjects1Objects, false);
 }
+}
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+{isConditionTrue_0 = (runtimeScene.getGame().getVariables().getFromIndex(0).getAsString() == "Alex1");
+}
+if (isConditionTrue_0) {
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10026500);
+}
+}
+if (isConditionTrue_0) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Stephen Bishop - It Might Be You (Official Lyric Video).mp3", 1, true, 80, 1);
+}
+{gdjs.evtTools.sound.playSoundOnChannel(runtimeScene, "jeepney sound effects #soundeffects #soundeffectsyoutubersuse #soundeffectsforcontentcreators.mp3", 1, true, 30, 1);
 }
 }
 
@@ -4568,10 +4590,6 @@ isConditionTrue_0 = false;
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Kenny Rogers - You Decorated My Life (lyrics).mp3", 2, false, 50, 1);
-}
-{gdjs.evtTools.sound.stopMusicOnChannel(runtimeScene, 1);
-}
-{gdjs.evtTools.sound.stopSoundOnChannel(runtimeScene, 1);
 }
 }
 
